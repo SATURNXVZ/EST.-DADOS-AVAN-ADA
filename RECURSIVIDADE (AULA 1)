@@ -1,0 +1,23 @@
+Vai ter Recursividade e Ponteiros, terá bastante aulas práticas (graças à Deus);
+
+ZAP do profe: 41 99984-2650
+muemura@up.edu.br
+
+temas da aula:
+1- Recursividade;
+2- Árvores binárias e binárias de busca.
+3- Árvores binarias balanceadas de busca.
+4- Árvores AVL e Rubro Negra.
+5- Grafos.
+
+RECURSIVIDADE:
+Disso vc já sabe, chama uma função dentro dela si mesma, e então, o retorno dela é o resultado, fechando o resultado.
+A função recursiva se torna uma, se tiver o CASO BASE e a CHAMADA RECURSIVA;
+
+Um caso base falho causa um estouro de pilha, "Stack OverFlow", que é uma recursão infinita;
+
+
+
+
+
+
