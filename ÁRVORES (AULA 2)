@@ -1,0 +1,49 @@
+ÁRVORES:
+Se baseia em ponteiros, onde pode-se usar listas encadeadas ou duplamente encadeadas.
+A duplamente encadeada é mehor, pois permite percorrer 2 elementos do inicio ou do fim, tanto faz;
+
+Arvores não necessitam de uma varredura completa de todos os outros até chegar o que precisa, e esse é um dos melhores pontos.
+Ela se trata de ligações entre um elemento e outros elementos, usando nós, aonde exist uma raiz, e os filhos se ligam através desses nós.
+
+o Nó raiz é o nó mestre, aonde nós filhos se conectam a eles
+
+  RAIZ
+   /\
+  A  B   -> NÓ FILHO
+ /\
+D  E     -> FOLHAS, NÓS SEM FILHOS
+
+A, D, E -> SUB-ÁRVORES \ ÁRVORE EXTERNA;
+
+A forma mais comum de representar árvores é usando grafos, seja usando pilha, fila e etc.
+
+SUB-ÁRVORES:
+Fazem parte do nó raiz, obviamente;
+Não tem ligações com outras sub-árvores, ou seja, é somente ela, com nenhuma ligação com outras.
+
+O nível da raiz é 0.
+
+GRAUS DA ARVORES: Máximo de nós que a árvore pode ter.
+
+ÁRVORE BINÁRIA:
+É uma arvore binaria de grau 2, que tem no máximo 2 filhos, ela é particular, ou seja, tem um filho a esquerda e/ou direita;
+Nessa árvore binária temos somente 2 sub-árvores.
+
+ÁRVORE VAZIA: Que não tem nenhum nó;
+
+ORDEM DE PERCURSO
+PRÉ-ORDEM:
+Trata raiz, esquerda, e depois direita;
+
+IN-ORDEM (Ordem Simétrica):
+Percorre esquerda, Raiz e então direita.
+"Tem alguém ao lado esquerdo?" se não tiver, volta pra Raiz.
+
+PÓS-ORDEM:
+Percorre a esquerda, depois a direita e então a Raiz.
+"Tem alguém a esquerda? e a direita?"
+
+EX: 
+PRÉ-ORDEM: +, *, +, 3, 6, -, 4, 1, 5
+IN-ORDEM: 
+PÓS-ORDEM: 
