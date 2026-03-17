@@ -1,0 +1,64 @@
+Só tem um caminho para qualquer nó;
+
+ALTURA:
+A "altura" ou comprimento mede-se pelo caminho da raiz até uma das folhas;
+
+A altura de uma árvore sem nó tem altura 0, uma árvore vazia tem altura -1;
+
+O esforço de processamento é proporcional à altura da árvore, ex:
+Uma árvore de altura 3 custa tanto, e uma árvore de tamamho 10?
+
+
+ÁRVORES BALANÇEADAS/DESBALANÇEADAS:
+Quando os 2 hemiférios tem a mesma altura, a árvore é balanceada,
+Se não for o caso, é desbalançeada;
+Uma árvore não balançeada tem custo de processamento maior;
+
+NÍVEIS DA ÁRVORE:
+As árvores seguem uma hierarquia,podendo-se usando a ideia da hierarquia familiar.
+a teve b e c como filho, b teve d como filho, c teve e e f filho.
+
+      a
+    /   \
+  b      c
+  |     /  \
+  d    e    f
+
+
+ÁRVORES CHEIAS:
+Toda árvore que tem 2 nós filhos, que teve mais 2 nós filhos e assim por diante até chegar no nó filho;
+arvore completa é como se fosse a cheia, mas ela não se agarra a ter 2 nós filhos no mesmo nível com os mesmos valores, ou seja:
+  
+  Se a árvore tiver 3 nós folhas no nv 3, mas 1 no nv 2, ela ainda será uma árvore COMPLETA, pois tem 2 filhos independente de qual nv esteja.
+
+
+ÁRVORES DEGENERADAS:
+Por coincidência, todos os nós ficam ou à esquerda, ou à direita, parecendo-se com um vetor, lista ou fila;
+Obviamente é desbalançeada;
+
+
+ÁRVORES BINÁRIAS DE BUSCA (ABB/BST):
+É construída com a necessidade de busca dentro de uma árvore, seja para pesquisa ou coisas parecidas;
+Ela segue uma lógica de busca em listas ou pilhas.
+ex:
+  insiro 40 (nó raiz/root);  //se o número 20 for menor, lado esquerdo, maior, lado direito;
+  insiro 20 (nó filho esquerdo) //nv1;
+  insiro 30 (nó neto esquerda/direita) // é menor do que 40, maior do que 20    //nv2
+  insiro 50 (nó filho direito)
+  insiro 70 (nó neto direito)
+  Insiro 10 (nó neto esquerdo) //menor do que 40 e 20;
+  insiro 45 (nó neto direito/esquerdo) //maior que 40, menor que 50
+
+MODELO TAD (TIPO ABSTRATO DE DADOS):
+Ajuda a implementar a interface pra quem vai criar aquela busca de dados
+
+
+
+
+
+
+
+    
+
+
+
