@@ -23,5 +23,18 @@ O nó raiz é quem vai distribuir os outros, a verificação é a mesma; ex:
     Recebe um 10, faz um  if, se for maior, ponteiro direito;
     É ponteiro esquerdo, faz outro if se o ponteiro esquerdo é nulo;
     se for, pode usar essa posição, se NÃO for, é pq tem um nó neste local;
-    
 
+Como percorrer a árvore?
+    Pré-ordem, pós-ordem e In-Ordem;
+
+A busca também pode ser explicada usando inserção, se for chave == tal, então esse é o nó, se não for, vou ir para o outro lado;
+Na hora de buscar, divida ao meio, visto que cada nó é adicionado conforme a raiz, ou seja:
+    40 é a raiz, e vc procura por 20, se existir, estará no lado ESQUERDO;
+
+Como remover um nó?
+    Mais complexo, pois existe um caminho que pode ser perdido.
+    Um nó sem filho pode ser excluído sem problemas.
+    Nós com filhos precisam de realocação, procurando um novo pai.
+
+E se o nó a ser removido tiver 2 filhos?
+    Pegue o maior à esquerda, ou o menor à direita;
