@@ -1,0 +1,27 @@
+A estrutura de árvore é:
+Valor, seja inteiro, string, struct;
+
+Esse dado vai ser usado como número chave, não pode ter 2 nós com o mesmo inteiro
+
+terão elementos que serão chaves, outros não, é tipo uma foreign key do SQL;
+
+ÀRVORE:
+valor (Seja chave ou não)
+Ponteiro para direita, e outro para o nó esquerdo
+
+Os ponteiros apontaram para seus filhos, os nós;
+Se for uma árvore sem folhas, então os 2 ponteiros serão nulas;
+
+Digamos que esse nó tem um pai, então, terá um ponteiro para ele;
+
+A construção é simples:
+    Verifica o valor chave a ser inserido na árvore, se for menor, vai pra esquerda, se for maior, para a direita;
+    Isso é feito de forma RECURSIVA;
+
+O nó raiz é quem vai distribuir os outros, a verificação é a mesma; ex:
+    nó raiz 30;
+    Recebe um 10, faz um  if, se for maior, ponteiro direito;
+    É ponteiro esquerdo, faz outro if se o ponteiro esquerdo é nulo;
+    se for, pode usar essa posição, se NÃO for, é pq tem um nó neste local;
+    
+
