@@ -130,8 +130,8 @@ int main(){
                 printf("Digite o salário: ");
                 scanf("%i", &salario);
 
-                new(code, nome, cargo, salario);
-        }
+                inserir(raiz, code, nome, cargo, salario);
+        }   //case 2:
     }
 
     free(raiz);
