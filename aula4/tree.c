@@ -135,4 +135,5 @@ int main(){
     }
 
     free(raiz);
+
 }
