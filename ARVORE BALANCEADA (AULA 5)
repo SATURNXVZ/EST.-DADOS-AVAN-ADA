@@ -1,0 +1,32 @@
+ÁRVORE AVL:
+é Balanceada se a diferença de altura em ambas subarvores de qualquer nó seja:
+
+  0 ou 1
+
+Novos nós podem ser inseridos ou removidos, e isso pode afetar a altura das árvores;
+OU seja, uma árvore viva (que está sendo modificada) pode ser balanceada ou não.
+
+A cada novo nó preciso ver se a árvore está balanceada, calculando e processando.
+Isso também pode afetar, pq uma AVL precisa estar balanceada ao modificar qualquer nó
+
+ÁRVORE DEGENERADA:
+Todo nó fica somente de um lado, causando um desbalanceamento enorme;
+
+O QUE FAZER COM UMA ÁVORE DESBALANCEADA?
+1- Veja qual lado causa o desbalanceamento:
+  Existe a diferença, o fator de balanceamento, que é calculado
+  lado esquerdo - lado direito = fator balanceamento
+  Se der negativo, é lado direito;
+  Se der positivo, é lado esquerdo;
+
+Quando der isso, vamos ROTACIONAR a árvore;
+
+ROTAÇÃO DE ÁRVORES:
+Rotação simples à direita (LL)
+  Ela pega o nó a esquerda, transforma-o em raiz.
+  Oq era a raiz se torna novo nó a DIREITA;
+  Se esse nó tiver um filho a direita daquele q vai ser o NOVO NÓ, Esse filho vai ser o novo nó à ESQUERDA;
+
+ROTAÇÃO
+
+
