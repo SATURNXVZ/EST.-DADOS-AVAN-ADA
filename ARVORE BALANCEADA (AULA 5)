@@ -27,6 +27,8 @@ Rotação simples à direita (LL)
   Oq era a raiz se torna novo nó a DIREITA;
   Se esse nó tiver um filho a direita daquele q vai ser o NOVO NÓ, Esse filho vai ser o novo nó à ESQUERDA;
 
-ROTAÇÃO
+Rotação à esquerda (RR)
+  Faz o inverso da anterior, oq era a raiz se torna o filho a esquerda;
+  A nova raiz é o filho da esquerda
 
-
+Rotação DUPLA 
