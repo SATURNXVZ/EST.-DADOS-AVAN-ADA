@@ -32,3 +32,22 @@ Rotação à esquerda (RR)
   A nova raiz é o filho da esquerda
 
 Rotação DUPLA 
+
+
+Rotação DUPLA DIREITA(LR)
+
+
+Rotação DUPLA ESQUERDA(RL)
+  A primeira rotação a esquerda prepara o terreno.
+  A segunda aperfeiçoa.
+
+As rotações foram criadas para ter um fator de balanceamento entre -1 até 1, ou seja:
+  Tornar a árvore balançeada, plenamente;
+
+A árvore AVL tem uma carga de processamento alta, por isso não se pode dizer que é a mais eficiente, mas funciona;
+
+
+
+
+
+
