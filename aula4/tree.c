@@ -113,24 +113,24 @@ int main(){
 
     //menu interativo com as escolhas 
     while (esc != 4){
-        printf("\n==== CADASTRO DE FUNCIONÁRIOS ===");
-        printf("1- Cadastrar novo funcionário;\n");
-        printf("2- Atualizar funcionário existente;\n");
-        printf("3- Buscar informações do funcionário;\n");
-        printf("4- Listar todos os funcionparios;\n");    
-        printf("Sua escolha: ");
-        scanf("%i", &esc);
+    printf("\n==== CADASTRO DE FUNCIONÁRIOS ===");
+    printf("1- Cadastrar novo funcionário;\n");
+    printf("2- Atualizar funcionário existente;\n");
+    printf("3- Buscar informações do funcionário;\n");
+    printf("4- Listar todos os funcionparios;\n");    
+    printf("Sua escolha: ");
+    scanf("%i", &esc);
 
-        switch(esc){
-            case 1: 
-                printf("Digite um nome: ");
-                fgets(nome, 101, stdin);
-                printf("Digite o nome do cargo: ");
-                fgets(cargo, 51, stdin);
-                printf("Digite o salário: ");
-                scanf("%i", &salario);
+    switch(esc){
+        case 1: 
+            printf("Digite um nome: ");
+            fgets(nome, 101, stdin);
+            printf("Digite o nome do cargo: ");
+            fgets(cargo, 51, stdin);
+            printf("Digite o salário: ");
+            scanf("%i", &salario);
 
-                inserir(raiz, code, nome, cargo, salario);
+            inserir(raiz, code, nome, cargo, salario);
         }   //case 2:
     }
 
