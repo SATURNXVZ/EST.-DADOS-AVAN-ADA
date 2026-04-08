@@ -1,0 +1,9 @@
+Revisão forte sobre a AVL e também começo de árvores RUBRO-NEGRA
+
+Chamada assim por causa dos nós serem vermelhos e pretos;
+
+Toda raiz é preta, e todo nó folhas são pretos;
+
+Se existe um nó vermelho, seu filho NÃO será vermelho;
+Não existe 2 vermelhos consecutivos;
+
