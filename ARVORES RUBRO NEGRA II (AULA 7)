@@ -1,0 +1,48 @@
+A2 DIA 28/04
+
+ÁRVORES RUBRO NEGRA PART II
+
+Árvore balanceada, ou seja, a distribuicao de nós está igual para todos os filhos;
+Uma forma disso é se o FB for maior do que 1;
+
+a Rubro Negra tem cores, essa é a diferença, sendo:
+  Vermelha ou Preta;
+
+Para que a árvore rn seja balanceada, tem que ter a mesma quantidade de nós pretos.
+
+Se ao inserir, remover, e se os caminhos forem modificados, então será feito um processo de balanceamento.
+
+
+A Arvore Rubro Negra tem regras:
+  
+  Se um nó é vermelho, seu filho SERÁ PRETO.
+  
+  Não pode ter 2 nós vermelhos consecutivos.
+  
+  A raiz da Rubro Negra precisa ser PRETA.
+
+  Todo novo nó (inserido) precisa ser VERMELHO.
+
+  A Rubro Negra não pode ter um caminho de um lado 2x maior que o OUTRO lado.
+  Cada caminho vindo da raiz até um nó folha, deve ter o mesmo número de nós negros dos 2 LADOS;
+
+
+A ESTRUTURA:
+
+Cor: Indica se é nó vermelho ou preto.
+Chave: Conteudo do nó;
+Nó Direito: aponta pra direita
+Nó Esquerdo: Aponta pra esquerda.
+Pai (opcional): Ponteiro para o nó pai.
+
+INSERÇÃO DE NÓS NA RUBRO-NEGRA:
+Mesma coisa da avl, se for menor é pra esquerda, maior pra direita.
+POREM, agora temos as cores, e as regras não podem ser quebradas.
+
+Cada novo nó começa vermelho, e somente após esse ter um filho se tornará preto.
+
+0
+
+
+
+
