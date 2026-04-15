@@ -5,7 +5,11 @@ utilizando recursividade.
 #include <stdio.h>
 #include <stdlib.h>
 
-int hanoi(int num, )
+void  hanoi(int num, char origem, char destino, char aux ){
+    if(num == 1){
+        printf("")
+    }
+}
 
 int main(){
     int num = 0; //discos da torre de hanoi
