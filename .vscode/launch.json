@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/vvito/Documents/GitHub/EST.-DADOS-AVAN-ADA/aula4",
-      "program": "c:/Users/vvito/Documents/GitHub/EST.-DADOS-AVAN-ADA/aula4/build/Debug/outDebug",
+      "cwd": "c:/Users/Pichau/OneDrive/Documentos/Code/EST.-DADOS-AVAN-ADA/EXERCÍCIOS/RECURSIVIDADE",
+      "program": "c:/Users/Pichau/OneDrive/Documentos/Code/EST.-DADOS-AVAN-ADA/EXERCÍCIOS/RECURSIVIDADE/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
