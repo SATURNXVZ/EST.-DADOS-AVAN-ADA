@@ -13,7 +13,7 @@ void hanoi(int num, char origem, char destino, char aux){
     hanoi(num -1, origem, aux, destino);
     printf("\nMover disco %i de %c para %c", num, origem, destino);
 
-    hanoi(num -1, aux, destino, origem);
+    hanoi(num -1, aux, destino, origem); 
 }
 
 int main(){
